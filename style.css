@@ -21,6 +21,7 @@ body {
     width: 50rem;
     height: 50rem;
     border-radius: 100px;
+    margin-top: 10%;
     box-shadow: 0 0 3rem #111111;
     transition: all 300ms ease;
 
@@ -35,11 +36,13 @@ body {
     box-shadow: 0 0 1.5rem #111111;
 }
 
+.image {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
 .card img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
     width: 30%;
     border-radius: 1000px;
     box-shadow: 0 0 0 0.5rem #333;
